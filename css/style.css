@@ -1437,6 +1437,57 @@ footer .credits a {
 }
 
 /*======================================
+//--//-->   SKILLS (custom)
+======================================*/
+
+.skills-block {
+  margin-top: 1.25rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .9rem;
+}
+
+.skill-card {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+  padding: .9rem .9rem;
+  background: #ffffff;
+}
+
+.skill-card-title {
+  font-weight: 800;
+  color: #1e1e1e;
+  margin-bottom: .6rem;
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: .35rem .55rem;
+  border-radius: 999px;
+  background: rgba(0, 120, 255, 0.08);
+  border: 1px solid rgba(0, 120, 255, 0.14);
+  color: rgba(30, 30, 30, 0.82);
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*======================================
 //--//-->   SITE FOOTER (custom)
 ======================================*/
 
