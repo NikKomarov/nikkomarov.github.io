@@ -101,6 +101,11 @@
 		});
 	}
 
+  // Footer year
+  if ($('#footer-year').length) {
+    $('#footer-year').text(new Date().getFullYear());
+  }
+
 	/*--/ Testimonials owl /--*/
 	$('#testimonial-mf').owlCarousel({
 		margin: 20,
